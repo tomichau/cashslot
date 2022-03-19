@@ -1,0 +1,87 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+a{
+    color: #520864;
+}
+.title{
+    text-align: center;
+}
+.couronne{
+    color: #E5E806;
+    text-shadow: #bdba00 2px -1px;
+}
+section{
+    height: 750px;
+}
+
+.coin{
+    margin-left: 20px;
+}
+.coin h3{
+    font-size: 30px;
+}
+.coin h3 .fa-coins{
+    color: #E5E806;
+    text-shadow: #bdba00 1px 0px;
+}
+.win{
+    font-size: 20px;
+    color: #4CDF19;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.loose{
+    font-size: 20px;
+    color: #e90c0c;
+    text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
+}
+.slot{
+    text-align: center;
+}
+.fruits{
+   /*// width:60px;position:static;top:370px;right:50%;z-index:0;*/
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    
+}
+ 
+#fond        { width:900px; height:auto; display: block; margin-left: auto; margin-right: auto;}
+.rouge       { width:800px; height:480px; margin:0 auto; background-image: url("../img/slot.png"); }
+.jaune       { width:600px; height:200px; position: relative; top:53%; left:10%; text-align: center;z-index:0;}
+.jaune img{
+    margin-right: 20px;
+    transform: scale(0.7);
+}
+#spin{
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto;
+    cursor:pointer;
+    border-radius: 25px;
+    border: 0;
+    padding: 10px 20px;
+    background-color: #F14715;
+    color: white;
+    box-shadow: 0 9px #999;
+}
+#spin:active {
+    background-color: #D73100;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+footer{
+    height: 70px;
+}
+footer .copyright{
+    text-align: center;
+    line-height: 5px;
+    margin:0;
+    padding:0;
+}
