@@ -1,0 +1,2 @@
+# cashslot
+machine à sous
