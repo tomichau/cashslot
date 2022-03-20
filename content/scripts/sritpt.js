@@ -4,6 +4,8 @@ $(document).ready(function(){
     var coin = 1000;
     $(".coins").html(coin);
     var isOkay = true;
+    var loose = false;
+    $(".gameOver").hide();
     $("#spin").click(function(){
         if(isOkay){
             isOkay = false;
@@ -46,6 +48,16 @@ $(document).ready(function(){
             console.log(coin);
             $(".coins").html(coin);
             isOkay = true;
+            if(coin <= 0){
+                $(".gameOver").show();
+                isOkay = false;
+                setTimeout(function(){$(".gameOver").hide();isOkay = true;coin = 1000;$(".coins").html(coin);}, 3000);
+                
+            }else{
+                $(".gameOver").hide();
+                
+            }
+            
         }
         else{
             return;
